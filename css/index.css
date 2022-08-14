@@ -1,56 +1,52 @@
 h1 {
-    font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
 
-  }
-  
-   .card img{ 
+}
 
-    max-width: 50%;
-    max-height: 200px ;
-  } 
- /* X-Small devices (portrait phones, less than 576px) */
- /* No media query for `xs` since this is the default in Bootstrap */
+.our_team .card img {
 
- /* Small devices (landscape phones, 576px and up) */
- @media (max-width: 324px) { 
+  max-width: 50%;
+  max-height: 200px;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 324px) {
   .carousel-inner img {
     height: 30vh;
   }
-   }
-
- @media (min-width: 324px) and (max-width : 575px){ 
-.carousel-inner img {
-  height: 35vh;
 }
- }
 
- /* Medium devices (tablets, 768px and up) */
-@media (min-width:576px) and  (max-width: 767px) { 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width:324px) and (max-width: 767px) {
   .carousel-inner img {
     height: 40vh;
   }
- }
+}
 
- /* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width:768px) and (max-width: 992px) {
   .carousel-inner img {
     height: 50vh;
   }
-  }
-
- /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width:993px) and (max-width: 1200px) { 
-  .carousel-inner img {
-  height: 70vh;
 }
- }
 
- /* XX-Large devices (larger desktops, 1400px and up) */
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width:993px) and (max-width: 1200px) {
+  .carousel-inner img {
+    height: 70vh;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width:1200px) and (max-width: 1400px) {
   .carousel-inner img {
     height: 80vh;
   }
- }
- .carousel-inner img {
+}
+
+.carousel-inner img {
   width: 100%;
- }
+}
